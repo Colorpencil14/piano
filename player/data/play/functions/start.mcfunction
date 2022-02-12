@@ -1,0 +1,1 @@
+function play:credit0

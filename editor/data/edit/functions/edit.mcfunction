@@ -1,0 +1,10 @@
+execute as @s[team=editor] run clone 16 16 1 16 239 88 16 16 -112
+execute as @s[team=editor] run clone 32 16 1 32 239 88 17 16 -112
+execute as @s[team=editor] run clone 48 16 1 48 239 88 18 16 -112
+execute as @s[team=editor] run clone 64 16 1 64 239 88 19 16 -112
+execute as @s[team=editor] run clone 80 16 1 80 239 88 20 16 -112
+execute as @s[team=editor] run clone 96 16 1 96 239 88 21 16 -112
+execute as @s[team=editor] run clone 112 16 1 112 239 88 22 16 -112
+execute as @s[team=editor] run clone 128 16 1 128 239 88 22 16 -112
+execute as @s[team=editor] run say 编辑→播放 导入完成
+execute as @s[team=!editor] run tellraw @s "[Server] 非法操作"

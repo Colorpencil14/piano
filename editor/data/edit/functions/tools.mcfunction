@@ -1,0 +1,8 @@
+replaceitem entity @s hotbar.1 command_block{BlockEntityTag:{auto:1,Command:"function edit:quaver"},display:{Name:'{"text":"八分音符（半拍）","color":"yellow","italic":"false"}',Lore:['{"color":"reset","text":"生成长度为1的音符,并提供即时反馈","italic":"false"}']}}
+replaceitem entity @s hotbar.2 command_block{BlockEntityTag:{auto:1,Command:"function edit:crotchet"},display:{Name:'{"text":"四分音符（一拍）","color":"yellow","italic":"false"}',Lore:['{"color":"reset","text":"生成长度为2的音符,并提供即时反馈","italic":"false"}']}}
+replaceitem entity @s hotbar.3 command_block{BlockEntityTag:{auto:1,Command:"function edit:minim"},display:{Name:'{"text":"二分音符（两拍）","color":"yellow","italic":"false"}',Lore:['{"color":"reset","text":"生成长度为4的音符,并提供即时反馈","italic":"false"}']}}
+replaceitem entity @s hotbar.4 redstone_block{display:{Lore:['{"color":"reset","italic":"false","text":"音符标记，用于补充音符，无即时反馈"}']}}
+replaceitem entity @s hotbar.5 red_stained_glass{display:{Lore:['{"color":"reset","italic":"false","text":"长度标记，用于补充音符，无即时反馈"}']}}
+replaceitem entity @s hotbar.6 command_block{BlockEntityTag:{auto:1,Command:"function preview:start"},display:{Name:'{"text":"开始预览","color":"yellow","italic":"false"}',Lore:['{"color":"reset","italic":"false","text":"在放置处开始预览,"}','[{"color":"reset","italic":"false","text":"按\\""},{"keybind":"key.swapHands"},"\\"放到副手以从头开始"]']}}
+#replaceitem entity @s hotbar.7 ender_pearl{display:{Name:'{"text":"在做了在做了","color":"yellow","italic":"false"}',Lore:['{"color":"reset","italic":"false","text":"下个版本一定"}']}}
+replaceitem entity @s hotbar.7 carrot_on_a_stick{display:{Name:'{"text":"传送棒","color":"yellow","italic":"false"}',Lore:['{"color":"reset","italic":"false","text":"右键使用"}','"§r若视角竖直向下，传送到底部"','"§r若视角竖直向上，传送到顶部"','"§r否则，向前传送16格"']}}

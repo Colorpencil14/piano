@@ -1,0 +1,4 @@
+say 已停止预览（第6页）
+clear @a command_block{Enchantments:[{id:unbreaking,lvl:111}],display:{Name:'{"text":"预览中...","color":"yellow","italic":"false"}',Lore:['[{"color":"reset","italic":"false","text":"正在预览第6页,按\\""},{"keybind":"key.swapHands"},"\\"放到副手以提前结束"]']},HideFlags:63}
+replaceitem entity @a[tag=p6] hotbar.6 command_block{BlockEntityTag:{auto:1,Command:"function preview:start"},display:{Name:'{"text":"开始预览","color":"yellow","italic":"false"}',Lore:['{"color":"reset","italic":"false","text":"在放置处开始预览,"}','[{"color": "reset","italic":"false","text":"按\\""},{"keybind":"key.swapHands"},"\\"放到副手以从头开始"]']}}
+tag @s remove p6
