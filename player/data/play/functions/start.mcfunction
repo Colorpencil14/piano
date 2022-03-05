@@ -1,1 +1,1 @@
-function play:credit0
+#
