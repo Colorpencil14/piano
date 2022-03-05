@@ -91,7 +91,7 @@ execute at 0-0-1-0-0 if block ~ ~ ~45 redstone_block run execute as 0-0-1-0-1 at
 execute at 0-0-1-0-0 if block ~ ~ ~46 redstone_block run execute as 0-0-1-0-1 at @s run function play:107a
 execute at 0-0-1-0-0 if block ~ ~ ~47 redstone_block run execute as 0-0-1-0-1 at @s run function play:108a
 execute store result score 0-0-1-0-0 pos2 run data get entity 0-0-1-0-0 Pos[2]
-tp 0-0-1-0-0 ~ ~1 ~
+execute at 0-0-1-0-1 run tp 0-0-1-0-0 ~ ~1 ~
 execute as 0-0-1-0-1 if score @s pos2 matches 240 run tp @s ~1 16 -112
 execute if entity @e[type=armor_stand,x=16,y=16,z=-112,dx=8,dy=224,dz=1] if score 0-0-1-0-0 speed matches 1 run schedule function play:damper 1
 execute if entity @e[type=armor_stand,x=16,y=16,z=-112,dx=8,dy=224,dz=1] if score 0-0-1-0-0 speed matches 2 run schedule function play:damper 2
